@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+  <input type="button" value="click" onclick="alert('hi venki')"/>
+ <script>
+    var marks = 36;
+    if(marks>=85){
+        document.write("A grade");
+    }else if(marks>=70){
+        document.write("B grade");
+    }else if(marks>=50){
+        document.write("C grade");
+    }else if(marks>=35){
+        document.write("Pass");
+    }else{
+        document.write("Fail");
+    }
+ </script>
+ <script>
+    for(i=0; i<5; i++){
+        document.write(i*3);
+
+    }
+ </script>
+ <br>
+ <script>
+    
+    for(i=4; i<52; i+=2){
+        document.write(i + "<br>");
+    }
+ </script>
+ <br>
+ <p id="comparison"> hi venkatesh</p>
+ <script>
+    var x = 30;
+    var y = 31;
+    var z = 40;
+    if(x<y & x>z){
+        document.write("x is a smaller number");
+    }else if(z>x & z>y){
+        document.write("z is a greater number");
+    }else{
+        document.write('something')
+    }
+ </script>
+ <br>
+ <script>
+ var number = 577;
+ if(number%2 == 0){
+    document.write(number + ' ' + "is a even number");
+ }else{
+    document.write(number + ' ' + "is a Odd number");
+ }
+ </script>
+ <br>
+ <script>
+    var x = 50;
+    var y = 100;
+    var z = 90;
+    if(x<z & y<z){
+        document.write(z + ' ' + 'is the largest number in ' + x + ', ' + y + ' ,' + z);
+    }else if(x<y & z<y){
+        document.write(y + ' ' + 'is the largest number in ' + x + ', ' + y + ' ,' + z);
+    }else{
+        document.write(x + ' ' + 'is the largest number in ' + x + ', ' + y + ' ,' + z);
+    }
+ </script>
+ <br>
+
+ <script>
+    var x=5;
+    var y=5;
+    if(x>y){
+        document.write(x + ' ' + 'is the largest number in' + ' ' + x + ', ' + y);
+    }else if(x == y){
+        document.write('x=' + x + ', ' + 'y=' + y + ' ' + "are equal to eachother");
+    }else{
+        document.write(y + ' ' + 'is the largest number in' + ' ' + x + ', ' + y);
+    }
+    
+ </script>
+ <br>
+ <script>
+    var year = 2000;
+    if(year%4 == 0 && year%100 != 0 || year%400 == 0){
+        document.write( year + ' ' + 'is a leap year');
+    }else{
+        document.write( year + ' ' + 'is not a leap year');
+    }
+ </script>
+    
+
+</body>
+</html>
